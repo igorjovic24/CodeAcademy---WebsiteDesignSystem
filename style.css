@@ -43,7 +43,7 @@ nav ul li{
     display: flexbox;
     position: relative;
     align-self: center;
-
+}
 
 .colors{
     display: block;
@@ -69,5 +69,3 @@ nav ul li{
 .colors div p{
     color: greenyellow;
 }
-
-
