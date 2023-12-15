@@ -13,6 +13,7 @@ nav a{
     display: inline-block;
     width: 20;
     font-size: 25px;
+    text-decoration: none;
 }
 
 nav ul{
@@ -24,6 +25,8 @@ nav ul li{
     float: right;
     color: brown;
     font-size: 10px;
+    text-decoration: none;
+    padding-right: 15;
 }
 
 .hero{
