@@ -58,7 +58,16 @@ nav ul li{
 .colors div{
     display: inline-block;
     box-sizing: border-box;
+    height: 50px;
     width: 32%;
+    border: 2px solid black;
+}
+
+.colors div h3{
+    color: blue;
+}
+.colors div p{
+    color: greenyellow;
 }
 
 
