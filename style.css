@@ -3,15 +3,27 @@
 }
 
 nav{
+    position: fixed;
     display: block;
+    color: beige;
 }
 
 nav a{
     display: inline-block;
     width: 20;
+    font-size: 25px;
 }
 
 nav ul{
     display: inline-block;
     width: 70%;
 }
+
+nav ul li{
+    float: right;
+    color: brown;
+    font-size: 10px;
+}
+
+
+
