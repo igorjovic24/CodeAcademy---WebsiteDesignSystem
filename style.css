@@ -3,7 +3,6 @@
 }
 
 nav{
-    display: block;
     color: beige;
     height: 30px;
     width: 100%;
@@ -13,6 +12,7 @@ nav a{
     display: inline-block;
     font-size: 25px;
     text-decoration: none;
+    width: 28%;
 }
 
 nav ul{
@@ -42,8 +42,7 @@ nav ul li{
 .hero h1{
     display: flexbox;
     position: relative;
-    left: auto;
-    right: auto;
+    align-self: center;
 
 
 .colors{
@@ -51,6 +50,15 @@ nav ul li{
     border: 1px solid black;
 }
 
+.colors h2{
+    display: block;
+    align-self: center;
+}
 
+.colors div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32%;
+}
 
 
