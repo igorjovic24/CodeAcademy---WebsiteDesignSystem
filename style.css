@@ -2,6 +2,10 @@
     background-color: whitesmoke;
 }
 
+nav{
+    display: block;
+}
+
 nav a{
     display: inline-block;
     width: 20;
