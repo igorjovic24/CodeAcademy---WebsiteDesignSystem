@@ -6,6 +6,7 @@ nav{
     position: fixed;
     display: block;
     color: beige;
+    height: 30px;
 }
 
 nav a{
@@ -23,6 +24,10 @@ nav ul li{
     float: right;
     color: brown;
     font-size: 10px;
+}
+
+.hero{
+    margin-top: 30px;
 }
 
 
