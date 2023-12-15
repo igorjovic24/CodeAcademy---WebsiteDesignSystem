@@ -31,6 +31,9 @@ nav ul li{
 
 .hero{
     margin-top: 30px;
+    background-image: url(https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=800);
+    width: 100%;
+    height: 150px;
 }
 
 
