@@ -2,70 +2,181 @@
     background-color: whitesmoke;
 }
 
+
+
 nav{
+    position: fixed;
+    top: 0;
     color: beige;
     height: 30px;
     width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    z-index: 10;
 }
 
 nav a{
+    box-sizing: border-box;
     display: inline-block;
     font-size: 25px;
     text-decoration: none;
     width: 28%;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul{
+    box-sizing: border-box;
+    margin: 0;
     display: inline-block;
     width: 70%;
+    padding-left: 0;
 }
 
-nav ul li{
+nav li{
     float: right;
+}
+
+nav ul a{
     color: brown;
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
-    padding-right: 15;
+    padding-right: 15px;
 }
 
 .hero{
-    display: flex;
-    margin-top: 30px;
+    position: relative;
+    display: block;
     background-image: url(https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=800);
     background-repeat: none;
     background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 150px;
+    height: 250px;
     
 }
 
 .hero h1{
-    display: flexbox;
-    position: relative;
+    position: absolute;
+    top: 30%;
+    left: 33%;
     align-self: center;
+    width: 33%;
+    background: none;
 }
 
 .colors{
     display: block;
-    border: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .colors h2{
     display: block;
-    align-self: center;
+    text-align: center;
 }
 
 .colors div{
     display: inline-block;
     box-sizing: border-box;
-    height: 50px;
+    height: 200px;
     width: 32%;
-    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .colors div h3{
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    overflow: hidden;
     color: blue;
+
 }
 .colors div p{
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    overflow: hidden;
     color: greenyellow;
 }
+
+#blue_container {
+    background-color: blue;
+}
+
+#blue_container h3, #blue_container p{
+    color: white;
+    background-color: transparent;
+}
+
+#pink_container {
+    background-color: pink;
+}
+
+#pink_container h3, #pink_container p{
+    color: white;
+    background-color: transparent;
+}
+
+#green_container {
+    background-color: green;
+}
+
+#green_container h3, #green_container p{
+    color: white;
+    background-color: transparent;
+}
+
+.fonts{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.fonts h2{
+    text-align: center;
+}
+
+.fonts div{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 350px;
+    width: 48%;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ .fonts h3{
+    text-align: center;
+ }
+
+ .fonts p{
+    text-align: justify;
+    line-height: 1.3;
+ }
+
+
+ #WorkSans_font h3,  #WorkSans_font p{
+    font-family: 'Work Sans', sans-serif;
+ } 
+
+ #Merriweather_font h3,  #Merriweather_font p{
+    font-family: 'Merriweather', sans-serif;
+ } 
+
+ #AbrilFatface_font h3, #AbrilFatface_font p{
+    font-family: 'Abril Fatface', sans-serif;
+ } 
+
